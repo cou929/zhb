@@ -158,7 +158,9 @@ You can find out `auth token` by below steps:
 1. Add fileter `zenhub` to eliminate all other requests.
 1. Open your repository root page on GitHub.
 1. Open the `access` request.
-1. You can see `x-authentication-token` request header. The value of it is `auth token`.
+1. You can see `x-authentication-token` request header. The value of it is `auth token`. Just copy it.
+
+![](https://raw.githubusercontent.com/wiki/cou929/zhb/images/token-header.png)
 
 ### `ZHB_REPO_ID`
 
