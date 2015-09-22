@@ -1,8 +1,24 @@
 # Change Log
 
-## [v0.1.0](https://github.com/cou929/zhb/tree/v0.1.0) (2015-09-22)
+## [v0.1.2](https://github.com/cou929/zhb/tree/v0.1.2) (2015-09-22)
+[Full Changelog](https://github.com/cou929/zhb/compare/v0.1.0...v0.1.2)
+
 **Merged pull requests:**
 
+- update to v0.1.2 to clear github releases [\#5](https://github.com/cou929/zhb/pull/5) ([cou929](https://github.com/cou929))
+
+## [v0.1.0](https://github.com/cou929/zhb/tree/v0.1.0) (2015-09-22)
+[Full Changelog](https://github.com/cou929/zhb/compare/v0.1.1...v0.1.0)
+
+**Merged pull requests:**
+
+- add zip installation phase [\#4](https://github.com/cou929/zhb/pull/4) ([cou929](https://github.com/cou929))
+
+## [v0.1.1](https://github.com/cou929/zhb/tree/v0.1.1) (2015-09-22)
+**Merged pull requests:**
+
+- v0.1.1 [\#3](https://github.com/cou929/zhb/pull/3) ([cou929](https://github.com/cou929))
+- use github\_changelog\_generator to make CHANGELOG [\#2](https://github.com/cou929/zhb/pull/2) ([cou929](https://github.com/cou929))
 - introduce wercker ci [\#1](https://github.com/cou929/zhb/pull/1) ([cou929](https://github.com/cou929))
 
 
