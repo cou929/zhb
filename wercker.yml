@@ -16,12 +16,12 @@ build:
           go test ./...
     - tcnksm/gox
     - tcnksm/zip:
-      input: $WERCKER_OUTPUT_DIR/pkg
-      output: $WERCKER_OUTPUT_DIR/dist
+      input: ${WERCKER_OUTPUT_DIR}/pkg
+      output: ${WERCKER_OUTPUT_DIR}/dist
 deploy:
   steps:
     - tcnksm/ghr:
         token: $GITHUB_TOKEN
         input: dist
-        version: v0.1.1
+        version: v0.1.0
         replace: true
