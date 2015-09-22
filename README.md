@@ -1,5 +1,7 @@
 # zhb
 
+[![wercker status](https://app.wercker.com/status/4c192feadf7d5c5b6208f7d7fad70407/s/master "wercker status")](https://app.wercker.com/project/bykey/4c192feadf7d5c5b6208f7d7fad70407)
+
 Unofficial cli tool for ZenHub.io
 
 ## Description
