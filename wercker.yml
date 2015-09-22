@@ -16,8 +16,8 @@ build:
           go test ./...
     - tcnksm/gox
     - tcnksm/zip:
-      input: ${WERCKER_OUTPUT_DIR}/pkg
-      output: ${WERCKER_OUTPUT_DIR}/dist
+      input: $WERCKER_OUTPUT_DIR/pkg
+      output: $WERCKER_OUTPUT_DIR/dist
 deploy:
   steps:
     - tcnksm/ghr:
