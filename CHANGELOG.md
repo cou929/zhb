@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.3](https://github.com/cou929/zhb/tree/v0.1.3) (2015-09-23)
+[Full Changelog](https://github.com/cou929/zhb/compare/v0.1.2...v0.1.3)
+
+**Merged pull requests:**
+
+- Bugfix [\#7](https://github.com/cou929/zhb/pull/7) ([cou929](https://github.com/cou929))
+
 ## [v0.1.2](https://github.com/cou929/zhb/tree/v0.1.2) (2015-09-22)
 [Full Changelog](https://github.com/cou929/zhb/compare/v0.1.0...v0.1.2)
 
