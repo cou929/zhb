@@ -3,6 +3,7 @@ package command
 import (
 	"encoding/json"
 	"fmt"
+	"os"
 	"github.com/codegangsta/cli"
 	zenhub "github.com/cou929/zenhub-client"
 	"strconv"
@@ -30,6 +31,7 @@ func CmdIssue(c *cli.Context) {
 	issueNumber, err := strconv.Atoi(c.Args().Get(0))
 	if err != nil {
 		cli.ShowCommandHelp(c, "issue")
+		os.Exit(1)
 	}
 
 	client := NewZenhubClient(c)

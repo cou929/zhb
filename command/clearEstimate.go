@@ -10,6 +10,7 @@ func CmdClearEstimate(c *cli.Context) {
 	issueNumer, err := strconv.Atoi(c.Args().Get(0))
 	if err != nil {
 		cli.ShowCommandHelp(c, "clearEstimate")
+		os.Exit(1)
 	}
 	client := NewZenhubClient(c)
 
