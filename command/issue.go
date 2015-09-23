@@ -58,10 +58,19 @@ func CmdIssue(c *cli.Context) {
 
 	result := map[string]interface{}{
 		"issueNumber":   issueNumber,
-		"pipelineId":    pipeline.Id,
-		"pipelineName":  pipeline.Name,
-		"estimateValue": estimate.Value,
+		"pipelineId":    nil,
+		"pipelineName":  nil,
+		"estimateValue": nil,
 		"pluses":        pluses,
+	}
+
+	if pipeline != nil {
+		result["pipelineId"] = pipeline.Id
+		result["pipelineName"] = pipeline.Name
+	}
+
+	if estimate != nil {
+		result["estimateValue"] = estimate.Value
 	}
 
 	marshaled, err := json.Marshal(result)
